@@ -3,32 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
 </head>
 
 <body>
+    <section class="welcome-section">
+      <div class="logo">
+        <img src="logo.svg" alt="logo">
+      </div>
+      <div class="try"> 
+        <form>
+        <input id="started" type="submit" value="Try it Free" class="try"/>
+      </form>
+    </div>
   
-  <section class="welcome-section">
-    <header class="header">
-      <div>
-      <img src="logo.svg" alt="logo">
-    </div>
-    <div>
-      <form>
-      <input id="started" type="submit" value="Try it Free" class="try"/>
-    </form>
-    </div>
-    </header>
-
-    <div class="flex">
+    
       <div class="first">
-  <h1>Build The Community Your Fans Will Love</h1>
+  <h2>Build The Community Your Fans Will Love</h2>
 
   <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
   Create connections with your users as you engage in genuine discussion.</p> 
@@ -36,132 +34,108 @@
   <button class="btn">Get Started For Free</button>
       </div>
 
-      <div class="second svg">
-        
-      </div>
-</div>
+      <div class="second">
+        <img src="illustration-mockups.svg">    </div>
 </section>
 
-<section class="content-section">
+  <section class="content-section">
 
-    <div class="cont">
-      <div class="grow">
-        <div>
-  <h1>Grow Together</h1>
-
-  <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. </p>
-        </div>
-
-        <div>
-          <img src="illustration-grow-together.svg" alt="grow together">
-        </div>
-      
-      </div>
-
-
-
-
-      <div class="flow">
-        <div>
-  <h1>Flowing Conversations</h1>
-
-  <p> wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.</p>
-        </div>
-
-        <div>
-          <img src="illustration-flowing-conversation.svg" alt="flowing conversation">
-        </div>
-      </div>  
-
-      <div class="use">
-        <div>
-  <h1>Your Users</h1>
-
-  <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.</p>
-      </div>
-
+    <div class="item item1"> 
       <div>
-        <img src="illustration-your-users.svg" alt="your users">
+      <h3>Grow Together</h3>
+
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+      Think of the insightful conversations you miss out on with a feedback form.</p> 
+    </div>
+    <div>
+      <img src="illustration-grow-together.svg" alt="grow together">
+    </div>
+    </div>
+
+    <div class="item item2">
+      <div>
+        <img src="illustration-flowing-conversation.svg" alt="flowing conversations">
+      </div>
+      <div>
+      <h3>Flowing Conversations</h3>
+
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+        have just-in-time loading for a more natural flow.</p>
       </div>
 
-      </div>
-    </div>
-
-</section>
-
-<section class="start">
-
-  <div class="get">
-
-    <div class="ready">
-    <h1>Ready To Build Your Community?</h1>
-    </div>
-
-    <div class="free">
-    <input id="submit" type="submit" value=" Get Started" class="for"/>
-    </div>
-
-  </div>
-</section>
-
-<footer>
-
-  
-<div></div>
-  
-    <div class="magic">
-     
       
+    </div>
+
+    <div class="item item3">
+      
+      <div>
+      <h3>Your Users</h3>
+
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+        This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div>
+        <img src="illustration-your-users.svg" alt="Your Users"
+      </div>
+    </div>
+  </section>
+
+<section class="closing">
+
+  <div class="free">
+    <div class="coat">
+  <h2>Ready To Build Your Community?</h2>
+
+  <input id="submit" type="submit" value=" Get Started For Free" class="for"/>
+    </div>
+  </div>
+
+<div class="lock">
+
+  <div class="zero">
+    <img src="logo.svg" alt="logo" class="filter-white">
+  </div>
+
+  <div class="one">
+      <img src="icon-location.svg" alt="location" class="locate">
+      <img src="icon-phone.svg" alt="phone" class="call">
+      <img src="icon-email.svg" alt="email" class="mail">
     
-      <div class="n1">
-        <img class="img" src="logo.svg" alt="logo">
-    
+      <p class="long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua</p>
+      <p class="ring">+1-543-123-4567</p>
+      <p class="beep">example@huddle.com</p>
+
+  </div>
+
+  <div class="two">
+    <ul>
+      <li>About Us</li>
+      <li>What We Do</li>
+      <li>FAQ</li>
+    </ul>
+ </div>
+
+ <div class="three">
   <ul>
-    <li class="move"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua</p>
-</li>
-    
-  <li class="move"> <p>+1-543-123-4567</p></li>
-
-  <li class="move"><p>example@huddle.com</p>
-  </li>
-
+    <li>Career</li>
+    <li>Blog</li>
+    <li>Contact Us</li>
   </ul>
-  </div>
-  
-  <div class="n2">
-   <ul>
-  <li class="move">About Us</li>
-  <li class="move">What We Do</li>
-  <li class="move">FAQ</li>
-   </ul>
-  </div>
+ </div>
 
-
-  <div class="n3">
-   <ul>
-  <li class="move">Career</li>
-  <li class="move">Blog</li>
-  <li class="move">Contact Us</li>
-  </ul>
-</div>
-
-  <div class="n4">
+  <div class="four">
   <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
   </div>
-
-  </div>
+  
+</div>
 </section>
 
-</footer>
-
+  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">banxx</a>.
+      Coded by <a href="#">Banxx</a>.
     </p>
-  
+  </footer>
 </body>
 </html>
